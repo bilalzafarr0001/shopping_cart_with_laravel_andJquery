@@ -93,6 +93,7 @@ $(document).ready(function() {
                     '<div class="card-text" id="price" style="text-decoration: line-through; color:red; ">Price $'   + product.price + '</div>' +
                     '<div class="card-text" id= "discount_end" style="font-weight:bold">Discount Price $'   + product.discount_price + '</div>' +        
                     '<h5 class="card-text" id = "show_main" style = "display : none">Price $'   + product.price + '</h5>' +
+                    
                     `<button class="btn btn-danger" onclick="addToCart(${product.id},${product.price},${product.discount_price})"> Add to Cart </button>` +
                     '</div>' + 
                 '</div>';
